@@ -2,3 +2,119 @@
 Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Merriweather', serif; 
+    font-weight: 400; 
+    line-height: 1.6; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+    background-color: lightyellow;
+}
+article {
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+}
+h1, h2, h4, h5 {
+    font-weight: 700; 
+    margin-top: 1.5em; 
+    margin-bottom: 0.5em; 
+    color: #222;
+}
+img{
+  display: block;
+    width: 100%;
+    height: auto;
+}
+p {
+    max-width: 100%; 
+    margin-bottom: 1em;
+}
+blockquote {
+    border-left: 10px solid #004a8e; 
+    padding-left: 1em; 
+    color: #474747; 
+    font-style: italic; 
+    margin: 1.5em 0;
+    background-color: #ececec;
+}
+blockquote p:last-child {
+    text-align: right;
+    font-style: normal;
+    color: #777;
+    font-size: 0.7rem
+    margin: 0;
+}
+a {
+    color: #007067; 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    background-color: #3a028f; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 1em;
+}
+button:hover {
+    background-color: #c593f4;
+}
+header {
+    border-bottom: 2px solid #005c96; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 2em; 
+    margin: 0.5em 0;
+}
+header h5 {
+    font-size: 1.5em; 
+    color: #7d3737; 
+    margin: 0.2em 0 1em 0;
+}
+figure {
+    margin: 1.5em 0; 
+    text-align: center;
+} 
+figcaption {
+    font-size: 0.9em; 
+    color: #666; 
+    margin-top: 0.5em;
+    font-style: italic;
+}
+figure img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 16px;
+}  
+ul {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+ul li {
+    margin-right: 3rem; 
+    font-size: 0.9em; 
+    color: #064bb9;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+span {
+    font-weight: 1000;
+}   
